@@ -1,0 +1,57 @@
+.form-wrapper {
+    text-align: center;
+    background-image: url('../../assets/bckg2.png');
+    background-size: cover;
+    background-repeat: no-repeat;   
+    height: 100vh;
+  }
+  
+  .input-element {
+    max-width: 700px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 5px;
+    color: #ccc;
+    background-color: #f9f9f9;
+  
+    &::placeholder {
+      color: #999;
+    }
+  }
+  
+  .form-btn {
+    outline: none;
+    background-color: darkgrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 20px;
+    max-width: 700px;
+    width: 100%;
+  
+    &:hover {
+      background-color: cadetblue;
+    }
+  }
+  
+  @media (max-width: 744px) and (min-width: 562px) {
+    .input-element,
+    .form-btn {
+      max-width: 400px;
+    }
+  }
+  
+  @media (max-width: 561px) and (min-width: 320px) {
+    .input-element,
+    .form-btn {
+      max-width: 300px;
+      margin: 5px;
+    }
+  }
+  

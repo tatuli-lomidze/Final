@@ -1,0 +1,30 @@
+.footer-container {
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(159, 153, 153, 0.044); 
+    color: black; 
+    padding: 20px 0; 
+    text-align: center;
+    font-family: sans-serif;
+    border-top: 1px solid rgba(112, 128, 144, 0.347);
+  }
+  
+  .footer-content {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  
+    .social-icon {
+      font-size: 24px;
+      margin-right: 10px;
+      color: BLACK;
+    }
+  }
+  
+  .copyright {
+    font-size: 14px;
+    color: black; 
+  }
+  
